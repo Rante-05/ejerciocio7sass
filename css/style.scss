@@ -1,84 +1,73 @@
-$back-color:rgb(6, 6, 32);
-$down-color:#151e2b;
-<<<<<<< HEAD
-* {
-=======
-*{
->>>>>>> 7b9df5730c402b1dfcb9f29fdb15ef5fa2e0c03d
-    box-sizing: border-box;
-    font-family: 'Raleway', ;
-    color: whitesmoke;
-}
-
-<<<<<<< HEAD
-header {
-    background: $back-color;
-}
-
-header ul a {
-=======
-header{
-background: $back-color;
-
-}
-
-header ul a{
->>>>>>> 7b9df5730c402b1dfcb9f29fdb15ef5fa2e0c03d
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-.banner {
-    font-weight: bold;
-    background-color: $down-color;
-    padding-bottom: 5%;
-<<<<<<< HEAD
-    .banner_part {
-        background: url(../assets/images/bg-curvy-desktop.svg) $back-color bottom center no-repeat;
-    }
-    h1 {
-        font-size: 2rem;
-        font-weight: bold;
-    }
-    p {
-        font-size: 1.5rem;
-        font-weight: lighter;
-    }
-}
-
-section.info_uno {
-    background: $down-color;
-    border: $down-color;
-    div {
-        border: 0;
-        padding-top: 10px;
-    }
-    img {
-        width: 20%;
-    }
-}
-=======
-    .banner_part{
-        background: url(../assets/images/bg-curvy-desktop.svg) $back-color bottom center no-repeat;
-    }
-    h1{font-size: 2rem;
-        font-weight: bold;}
-        p{font-size: 1.5rem;
-            font-weight: lighter;
+        $back-color:rgb(6, 6, 32);
+        $down-color:#151e2b;
+        * {
+            box-sizing: border-box;
+            font-family: 'Raleway', ;
+            color: whitesmoke;
         }
-    
-}
-
-section.info_uno{
-    background: $down-color;
-    border:$down-color;
-    div{
-        border: 0;
-        padding-top: 10px;
-    }
-    img{
-        width: 20%;
-    }
-}
-
->>>>>>> 7b9df5730c402b1dfcb9f29fdb15ef5fa2e0c03d
+        
+        header {
+            background: $back-color;
+        }
+        
+        header ul a {
+            header {
+                background: $back-color;
+            }
+            header ul a {
+                text-decoration: none;
+                color: whitesmoke;
+            }
+            .banner {
+                font-weight: bold;
+                background-color: $down-color;
+                padding-bottom: 5%;
+                .banner_part {
+                    background: url(../assets/images/bg-curvy-desktop.svg) $back-color bottom center no-repeat;
+                }
+                h1 {
+                    font-size: 2rem;
+                    font-weight: bold;
+                }
+                p {
+                    font-size: 1.5rem;
+                    font-weight: lighter;
+                }
+            }
+            section.info_uno {
+                background: $down-color;
+                border: $down-color;
+                div {
+                    border: 0;
+                    padding-top: 10px;
+                }
+                img {
+                    width: 20%;
+                }
+            }
+            .banner_part {
+                background: url(../assets/images/bg-curvy-desktop.svg) $back-color bottom center no-repeat;
+            }
+            h1 {
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            p {
+                font-size: 1.5rem;
+                font-weight: lighter;
+            }
+            section.info_uno {
+                background: $down-color;
+                border: $down-color;
+                div {
+                    border: 0;
+                    padding-top: 10px;
+                }
+                img {
+                    width: 20%;
+                }
+            }
+            img {
+                width: 20%;
+            }
+        }
