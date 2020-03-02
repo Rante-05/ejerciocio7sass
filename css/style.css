@@ -48,7 +48,11 @@ section.info_uno img {
   width: 20%;
 }
 
-.banner-D .card-body_ {
+.banner-D {
+  background-color: #151e2b;
+}
+
+.banner-D .banner-3 {
   background-color: #151e2b;
 }
 /*# sourceMappingURL=style.css.map */
