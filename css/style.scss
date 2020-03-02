@@ -44,5 +44,7 @@ section.info_uno{
 }
 
 .banner-D{
-    background-color: $down-color;
+    .card-body_{
+        background-color: $down-color;
+    }
 }
