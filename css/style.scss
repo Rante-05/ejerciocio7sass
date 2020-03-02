@@ -1,0 +1,45 @@
+$back-color:rgb(6, 6, 32);
+$down-color:#151e2b;
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', ;
+    color: whitesmoke;
+}
+
+header {
+    background: $back-color;
+}
+
+header ul a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.banner {
+    font-weight: bold;
+    background-color: $down-color;
+    padding-bottom: 5%;
+    .banner_part {
+        background: url(../assets/images/bg-curvy-desktop.svg) $back-color bottom center no-repeat;
+    }
+    h1 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    p {
+        font-size: 1.5rem;
+        font-weight: lighter;
+    }
+}
+
+section.info_uno {
+    background: $down-color;
+    border: $down-color;
+    div {
+        border: 0;
+        padding-top: 10px;
+    }
+    img {
+        width: 20%;
+    }
+}

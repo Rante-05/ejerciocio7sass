@@ -1,1 +1,131 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+/* No CSS */
+
+
+/*# sourceMappingURL=style.css.map */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Raleway";
+    color: whitesmoke;
+}
+
+header {
+    background: #060620;
+}
+
+header ul a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.banner {
+    font-weight: bold;
+    background-color: #151e2b;
+    padding-bottom: 5%;
+}
+
+.banner .banner_part {
+    background: url(../assets/images/bg-curvy-desktop.svg) #060620 bottom center no-repeat;
+}
+
+.banner h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+section.info_uno {
+    background: #151e2b;
+    border: #151e2b;
+}
+
+section.info_uno div {
+    border: 0;
+    padding-top: 10px;
+}
+
+section.info_uno img {
+    width: 20%;
+}
+
+
+/*sectioon two*/
+
+.img-logo {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: inherit;
+}
+
+.banner-2 {
+    margin-top: 50px;
+}
+
+.banner-3 {
+    background-color: #21293c;
+    padding-left: 10px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.banner-D {
+    display: flex;
+    background-color: #151e2b;
+    margin: auto;
+}
+
+.p-1 {
+    border-bottom: solid 1px #679799;
+    width: 230px;
+    color: #679799;
+}
+
+.h2-w {
+    font-size: 50px;
+}
+
+.banner-2 .pz {
+    font-size: 17px;
+}
+
+.img-persns {
+    width: 23px;
+    border-radius: 50%;
+}
+
+.name-persons {
+    margin-left: 10px;
+}
+
+.icons-perso {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.post {
+    position: absolute;
+    margin-top: 48px;
+    margin-left: 36px;
+    font-size: 9px;
+}
+
+.margin-1 {
+    margin-top: 10px;
+}
+
+.container {
+    background-color: #151e2b;
+}
+
+
+/*sectioon two*/
+
+
+/*# sourceMappingURL=style.css.map */
